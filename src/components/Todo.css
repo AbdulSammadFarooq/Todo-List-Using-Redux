@@ -1,0 +1,74 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #360b2c;
+  color: white;
+}
+
+.parent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  width: 60vw;
+  height: 60vh;
+  margin-left: 30rem;
+
+  /* background-color: red; */
+}
+
+.input {
+  margin-top: 1rem;
+  width: 19rem;
+  height: 2.5rem;
+}
+
+.paragraph {
+  margin-left: 3.5rem;
+}
+
+.fa-plus:hover {
+  color: green;
+}
+.fa-plus {
+  margin-left: 0.5rem;
+}
+
+
+/* item list */
+.fa-trash-alt:hover {
+  color: red
+}
+
+.fa-trash-alt{
+  margin-left: 16rem;
+  margin-top: .5rem;
+}
+
+h3{
+  margin-top: .5rem;
+}
+
+.data{
+  margin-top: 2rem;
+  display: flex;
+  width: 19rem;
+  height: 2rem;
+  background-color: white;
+  color: black;
+}
+
+
+
+
